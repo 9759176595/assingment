@@ -1,14 +1,11 @@
-# assingment
-cs2#include<stdio.h>
+#include<stdio.h>
 void main()
 {
-	float x, y, area;
-	printf("enter the value of length:");
-	scanf("%f",&x );
-	printf("enter the value of breadth:");
-	scanf("%f",&y);
-	area = x*y;
-	printf("the area is %f", area);
+ 	int x, y, z;
+	printf("enter the 1 value :");
+	scanf("%d", &x);
+	printf("enter the 2 value :");
+	scanf("%d", &y);
+	z = x^2 + y^3;
+	printf("the value of z is %d", z);
 }
-	
-
